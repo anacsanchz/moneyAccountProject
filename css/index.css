@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.text-green{
+    color:#1FC157;
+}
+.bg-green{
+    margin-top: 10px;
+    background-color: #1FC157;
+}
+.bg-green:focus{
+    background-color: #44d176;
+    border: none;
+}
+.bg-green:active{
+    background-color: #44d176;
+    border: none;
+
+}
+.bg-green:hover{
+    background-color: #44d176;
+}
+.bg-gray{
+    background-color: #8b8b8b;
+    border: none;
+    margin-top: 10px;
+}
+.bg-gray:hover{
+    background-color: #a7a7a7;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.bg-image{
+    background-image: url(../assets/transparent-bills-with-buildings.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.content{
+    height: auto;
+}
+.window{
+    padding: 40px;
+}
+.error{
+    font-size: 14px;
+}
